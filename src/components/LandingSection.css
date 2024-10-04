@@ -1,0 +1,39 @@
+.landing {
+    text-align: center;
+    padding: 100px 20px;
+    background-color: black;
+    color: white;
+  }
+  
+  .landing h1 {
+    font-size: 48px;
+    color: yellow;
+  }
+  
+  .landing p {
+    font-size: 18px;
+    margin-bottom: 30px;
+  }
+  
+  .buttons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .btn {
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .btn.primary {
+    background-color: yellow;
+    color: black;
+  }
+  
+  .btn.secondary {
+    background-color: red;
+    color: white;
+  }
