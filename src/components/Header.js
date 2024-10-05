@@ -4,7 +4,7 @@ import './Header.css';
 function Header() {
   return (
     <header className="header">
-      <div className="logo"> My Lnading Page</div>
+      <div className="logo"> My Landing Page</div>
       <nav>
         <ul>
           <li><a href="#home">Home</a></li>
