@@ -1,6 +1,6 @@
 {
   
-  "homepage": "https://Vincelagrimas13.github.io/React._landing",
+  "homepage": "https://Vincelagrimas13.github.io/Landing-react",
   
   "name": "futuristic-landing-page",
   
@@ -38,20 +38,19 @@
     
   "start": "react-scripts start",
   
-    
-  "predeploy": "npm run build",
   
-    
-  "deploy": "gh-pages",
-  
-    
   "build": "react-scripts build",
   
     
   "test": "react-scripts test",
   
     
-  "eject": "react-scripts eject"
+  "eject": "react-scripts eject",
+    
+  "predeploy": "npm run build",
+  
+    
+  "deploy": "gh-pages -d build"
   
   },
   
